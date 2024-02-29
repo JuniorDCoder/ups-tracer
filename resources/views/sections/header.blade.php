@@ -14,7 +14,7 @@
                 <form action="{{ route('track') }}" method="POST">
                     @csrf
 
-                    <div class="input-group-append">
+                    <div class="input-group">
                         <input type="text" name="tracking_id" class="form-control border-light" style="padding: 30px;" placeholder="Product Number">
                         <button type="submit" class="btn btn-primary px-5">Track & Trace</button>
                     </div>
