@@ -11,11 +11,11 @@
         @if (Route::currentRouteName() == 'home')
         <div class="mx-auto" style="width: 100%; max-width: 600px;">
             <div class="input-group">
-                <form action="" method="POST">
+                <form action="{{ route('track') }}" method="POST">
                     @csrf
 
                     <div class="input-group-append">
-                        <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Tracking Id">
+                        <input type="text" name="tracking_id" class="form-control border-light" style="padding: 30px;" placeholder="Product Number">
                         <button type="submit" class="btn btn-primary px-5">Track & Trace</button>
                     </div>
                 </form>

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TrackingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -40,3 +41,5 @@ Route::get('/blog', function () {
 Route::get('/blog-single', function () {
     return view('pages.single-blog');
 })->name('blog-single');
+
+Route::post('/track', [TrackingController::class, 'track'])->name('track');
