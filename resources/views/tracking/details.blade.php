@@ -7,7 +7,7 @@
 @section('header')
     <h1 class="text-white display-3 animate__animated animate__fadeInDown">Tracking Details</h1>
     <div class="d-inline-flex align-items-center text-white animate__animated animate__fadeInRight">
-        <p class="m-0"><a class="text-white" href="">Home</a></p>
+        <p class="m-0"><a href="{{route('home')}}" class="text-white">Home</a></p>
         <i class="fa fa-circle px-3"></i>
         <p class="m-0">Tracking Details</p>
     </div>
