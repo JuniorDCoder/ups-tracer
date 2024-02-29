@@ -11,22 +11,10 @@ class TrackingController extends Controller
     {
         $trackingId = $request->input('tracking_id');
 
-        // Break down the tracking ID into individual digits
-        $digits = str_split($trackingId);
-
-        // Start a new query
-        $query = Tracking::query();
-
-        // Add a 'where' clause for each digit
-        foreach ($digits as $digit) {
-            $query->orWhere('product_number', 'like', "%$digit%");
-        }
-
-        // Execute the query and get the first result
-        $trackingDetails = $query->first();
+        // Search for tracking details in the database based on a pattern
+        $trackingDetails = Tracking::where('product_number', 'like', "%$trackingId%")->first();
 
         // Pass the tracking details to the view
         return view('tracking.details', ['trackingDetails' => $trackingDetails]);
     }
-
 }
