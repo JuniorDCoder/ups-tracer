@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TrackingController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,3 +44,7 @@ Route::get('/blog-single', function () {
 })->name('blog-single');
 
 Route::post('/track', [TrackingController::class, 'track'])->name('track');
+
+
+Route::post('/submit-form', [ContactController::class, 'submitForm'])->name('submit.form');
+
