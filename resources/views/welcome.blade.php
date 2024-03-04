@@ -23,6 +23,13 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <style>
+        .logo-img {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+    </style>
     @yield('styles')
 </head>
 
