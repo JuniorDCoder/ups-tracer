@@ -7,7 +7,7 @@
             <div class="col-lg-7 py-5 py-lg-0">
                 <h6 class="text-primary text-uppercase font-weight-bold">Why Choose Us</h6>
                 <h1 class="mb-4">Faster, Safe and Trusted Logistics Services</h1>
-                <p class="mb-4">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
+                <p class="mb-4">We are committed to providing efficient, reliable, and timely logistics services. Our team of professionals works tirelessly to ensure your goods are delivered safely and on time. We understand the importance of trust in this industry, and we strive to earn and maintain the trust of our clients through our exceptional services.</p>
                 <ul class="list-inline">
                     <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>Best In Industry</h6>
                     <li><h6><i class="far fa-dot-circle text-primary mr-3"></i>Emergency Services</h6></li>
