@@ -19,7 +19,7 @@ class ContactController extends Controller
         ]);
 
         // Send email
-        Mail::to('contact@elevatelogistics.online')->send(new ContactFormMail($request->all()));
+        Mail::to('contact@upstracer.com')->send(new ContactFormMail($request->all()));
 
         // Redirect back with success message
         return redirect()->back()->with('success', 'Your message has been sent successfully!');
