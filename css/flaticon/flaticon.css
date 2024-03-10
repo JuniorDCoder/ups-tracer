@@ -1,0 +1,132 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 24/09/2020 13:33
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../../fonts/Flaticon.eot");
+  src: url("../../fonts/Flaticond41dd41d.eot#iefix") format("embedded-opentype"),
+       url("../../fonts/Flaticon.woff2") format("woff2"),
+       url("../../fonts/Flaticon.woff") format("woff"),
+       url("../../fonts/Flaticon.ttf") format("truetype"),
+       url("../../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-emoji:before { content: "\f100"; }
+.flaticon-placeholder:before { content: "\f101"; }
+.flaticon-mail:before { content: "\f102"; }
+.flaticon-gear:before { content: "\f103"; }
+.flaticon-like:before { content: "\f104"; }
+.flaticon-twitter:before { content: "\f105"; }
+.flaticon-wechat:before { content: "\f106"; }
+.flaticon-whatsapp:before { content: "\f107"; }
+.flaticon-android:before { content: "\f108"; }
+.flaticon-skype:before { content: "\f109"; }
+.flaticon-youtube:before { content: "\f10a"; }
+.flaticon-linkedin:before { content: "\f10b"; }
+.flaticon-brands-and-logotypes:before { content: "\f10c"; }
+.flaticon-firefox:before { content: "\f10d"; }
+.flaticon-shout:before { content: "\f10e"; }
+.flaticon-phone:before { content: "\f10f"; }
+.flaticon-trophy:before { content: "\f110"; }
+.flaticon-quote:before { content: "\f111"; }
+.flaticon-growth:before { content: "\f112"; }
+.flaticon-diamond:before { content: "\f113"; }
+.flaticon-heart:before { content: "\f114"; }
+.flaticon-target:before { content: "\f115"; }
+.flaticon-clock:before { content: "\f116"; }
+.flaticon-target-1:before { content: "\f117"; }
+.flaticon-pie-chart:before { content: "\f118"; }
+.flaticon-money:before { content: "\f119"; }
+.flaticon-telemarketer:before { content: "\f11a"; }
+.flaticon-money-bag:before { content: "\f11b"; }
+.flaticon-exchange:before { content: "\f11c"; }
+.flaticon-pay:before { content: "\f11d"; }
+.flaticon-handshake:before { content: "\f11e"; }
+.flaticon-contract:before { content: "\f11f"; }
+.flaticon-team:before { content: "\f120"; }
+.flaticon-salary:before { content: "\f121"; }
+.flaticon-thought:before { content: "\f122"; }
+.flaticon-bullhorn:before { content: "\f123"; }
+.flaticon-deal:before { content: "\f124"; }
+.flaticon-id-card:before { content: "\f125"; }
+.flaticon-bill:before { content: "\f126"; }
+.flaticon-employee:before { content: "\f127"; }
+.flaticon-coin:before { content: "\f128"; }
+.flaticon-email:before { content: "\f129"; }
+.flaticon-wallet:before { content: "\f12a"; }
+.flaticon-briefcase:before { content: "\f12b"; }
+.flaticon-money-1:before { content: "\f12c"; }
+.flaticon-money-2:before { content: "\f12d"; }
+.flaticon-money-3:before { content: "\f12e"; }
+.flaticon-delivery-truck:before { content: "\f12f"; }
+.flaticon-search:before { content: "\f130"; }
+.flaticon-buy:before { content: "\f131"; }
+.flaticon-discount:before { content: "\f132"; }
+.flaticon-product:before { content: "\f133"; }
+.flaticon-supermarket:before { content: "\f134"; }
+.flaticon-delivery:before { content: "\f135"; }
+.flaticon-rocket:before { content: "\f136"; }
+.flaticon-null:before { content: "\f137"; }
+.flaticon-user:before { content: "\f138"; }
+.flaticon-globe:before { content: "\f139"; }
+.flaticon-headphone:before { content: "\f13a"; }
+.flaticon-null-1:before { content: "\f13b"; }
+.flaticon-barcode:before { content: "\f13c"; }
+.flaticon-null-2:before { content: "\f13d"; }
+.flaticon-info:before { content: "\f13e"; }
+.flaticon-user-1:before { content: "\f13f"; }
+.flaticon-tick:before { content: "\f140"; }
+.flaticon-truck:before { content: "\f141"; }
+.flaticon-crane:before { content: "\f142"; }
+.flaticon-null-3:before { content: "\f143"; }
+.flaticon-null-4:before { content: "\f144"; }
+.flaticon-credit-card:before { content: "\f145"; }
+.flaticon-internet:before { content: "\f146"; }
+.flaticon-bill-1:before { content: "\f147"; }
+.flaticon-null-5:before { content: "\f148"; }
+.flaticon-crane-1:before { content: "\f149"; }
+.flaticon-travel:before { content: "\f14a"; }
+.flaticon-map:before { content: "\f14b"; }
+.flaticon-logistics:before { content: "\f14c"; }
+.flaticon-customer-service:before { content: "\f14d"; }
+.flaticon-vessel:before { content: "\f14e"; }
+.flaticon-location:before { content: "\f14f"; }
+.flaticon-psychology:before { content: "\f150"; }
+.flaticon-goal:before { content: "\f151"; }
+.flaticon-headphones:before { content: "\f152"; }
+.flaticon-delivery-truck-1:before { content: "\f153"; }
+.flaticon-destination:before { content: "\f154"; }
+.flaticon-vision:before { content: "\f155"; }
+.flaticon-badge:before { content: "\f156"; }
+.flaticon-scale:before { content: "\f157"; }
+.flaticon-goods:before { content: "\f158"; }
+.flaticon-rating:before { content: "\f159"; }
+.flaticon-customer:before { content: "\f15a"; }
+.flaticon-quality:before { content: "\f15b"; }
+.flaticon-play-button:before { content: "\f15c"; }
+.flaticon-location-1:before { content: "\f15d"; }
+.flaticon-express-delivery:before { content: "\f15e"; }
+.flaticon-envelope:before { content: "\f15f"; }
+.flaticon-crane-2:before { content: "\f160"; }
+.flaticon-shipping:before { content: "\f161"; }
+.flaticon-cargo:before { content: "\f162"; }
+.flaticon-cargo-1:before { content: "\f163"; }
